@@ -1,0 +1,44 @@
+body{
+    background-image: url("https://th.bing.com/th/id/R.d1dc60cf7742037fe7691675722b309f?rik=NJyxAj%2fxHtb4eg&pid=ImgRaw&r=0") !important;
+    background: var(--background);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: "kid";
+} 
+
+@font-face {
+    font-family: 'kid';
+    src: url('kid.TTF')
+    }
+
+h2{
+    color: var(--text-color) !important;
+    font-weight: bold;
+}
+.imgsearch{
+    height: 40px;
+    width: 40px;
+}
+.imgsearch:hover{
+    width:100%;
+    -webkit-transform:scale(1.3);
+    transform:scale(5);
+    -webkit-transition:1s ease-in-out;
+    transition:1s ease-in-out;
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+footer{
+    visibility: hidden;
+}
+
+.input-principal{
+    background: transparent; 
+}
+.input-principal:focus{
+    background: url('https://th.bing.com/th/id/OIP.xhNCiCRdXClwyjh_Aa7vnQHaDt?w=319&h=175&c=7&r=0&o=5&pid=1.7');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: red;
+}
